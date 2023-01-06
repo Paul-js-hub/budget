@@ -64,6 +64,10 @@
 
 - [Live Demo Link](https://intense-headland-23669.herokuapp.com/)
 
+## 🚀 Video Presentation <a name="live-demo"></a>
+
+- [Video Link](https://www.loom.com/share/4dbc5a8de9c6438dbb9ae8f873769665)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
