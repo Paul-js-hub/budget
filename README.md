@@ -84,9 +84,9 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  https://github.com/Paul-js-hub/budget.git
+- https://github.com/Paul-js-hub/budget.git
 
-  cd budget
+- cd budget
 
 ### Install
 
