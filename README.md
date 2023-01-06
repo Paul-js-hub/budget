@@ -1,40 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -97,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](Coming soon)
+- [Live Demo Link](https://intense-headland-23669.herokuapp.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,17 +80,17 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  https://github.com/Paul-js-hub/budget-app.git
+  https://github.com/Paul-js-hub/budget.git
 
-  cd budget-app
+  cd budget
 
 ### Install
 
 Install this project with:
 
 - bundle install
-- npm install
-- npm run build:css
+- npm install 
+- yarn install
 - rails db:create 
 - rails db:migrate
 
@@ -133,7 +98,7 @@ Install this project with:
 
 To run the project, execute the following command:
 
-- rails server
+- ./bin/dev
 
 ### Run tests
 
@@ -156,7 +121,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Paul-js-hub/budget-app/issues).
+Feel free to check the [issues page](https://github.com/Paul-js-hub/budget/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
