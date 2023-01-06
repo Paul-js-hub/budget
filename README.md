@@ -84,9 +84,9 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  https://github.com/Paul-js-hub/budget.git
+- https://github.com/Paul-js-hub/budget.git
 
-  cd budget
+- cd budget
 
 ### Install
 
@@ -121,6 +121,12 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="features"></a>
+- Add a delete button to remove a category
+- Add an edit button to edit the transactions
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -144,6 +150,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
