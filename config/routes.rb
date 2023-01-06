@@ -6,4 +6,12 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root 'welcome#index'
+
+  resources :categories do
+    resources :expenses
+  end
+
+  devise_scope  :user do
+    get 'users/sign_out' => 'devise/sessions#destroy'
+  end
 end

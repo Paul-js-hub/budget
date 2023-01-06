@@ -1,0 +1,38 @@
+<ul class="list-inline mb-2 bg-primary text-white d-flex align-items-center justify-content-between p-3">
+    <li class="list-inline-item"><%= link_to categories_path do %>
+        <i class="bi bi-arrow-left text-white fs-5"></i>
+      <% end %> 
+    </li>
+    <li class="list-inline-item fs-5">Transactions</li>
+    <li class="list-inline-item"><i class="bi bi-search fs-5"></i></li> 
+  </ul> 
+<div class="container-fluid d-flex flex-column align-items-center">
+    <div class="card" style="width: 95%;">
+      <div class="card-header">
+        <div class="d-flex align-items-center">
+          <img style="height: 40px; width:40px;" class="mx-2" src=<%= @category.icon %>>
+          <h5 class="card-title category-name fs-5 stretched-link"><%=@category.name%>'s transactions</h5>
+        </div>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between bg-light">
+          <p class="m-1 gray-text fs-5">TOTAL PAYMENT</p>
+          <p class="fw-semibold m-1 gray-text fs-5">$<%= @expenses.sum(:amount) %></p>
+        </li>
+        <% if !@expenses.empty? %>
+          <% @expenses.each_with_index do | expense, index| %>
+            <li class="list-group-item">
+              <div d-flex flex-column>
+                <p class="card-text gray-text">Transaction N°<%=index + 1%>: <span class="fw-semibold ms-2"><%=expense.name%></span></p>
+                <p class="card-text gray-text">Amount: <span class="fw-semibold ms-2">$<%=expense.amount%></span></p>
+                <p class="card-text mt-2"><small class="text-muted"><i class="fa-regular fa-calendar me-2"></i><%=expense.created_at.strftime("%d %b %Y")%> at <%=expense.created_at.strftime("%I.%M %p")%></small></p>
+              </div>
+            </li>
+          <% end %>
+        <% else %>
+          <li class="list-group-item gray-text">You don't have transactions here yet.</li>
+        <% end %>
+      </ul>
+    </div>
+    <%= link_to 'Add a new transaction', new_category_expense_path(@category), class: "btn btn-primary my-5 py-2 px-5 text-white fs-6" %>
+  </div>
