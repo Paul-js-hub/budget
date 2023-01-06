@@ -112,18 +112,18 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="features"></a>
-- Add a delete button to remove a category
-- Add an edit button to edit the transactions
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 👥 Author <a name="authors"></a>
 
 👤 **Paul Onchera**
 
 - GitHub: [@paulonchera](https://github.com/Paul-js-hub)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/paul-onchera/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="features"></a>
+- Add a delete button to remove a category
+- Add an edit button to edit the transactions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
